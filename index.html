@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda's HTML Notes</title>
+</head>
+<body>
+    <h1>Promineo Tech Week 1 HTML notes</h1>
+    <h3>Learning how to create a webpage Week 1</h3>
+    <p>For headings, you have the option of h1-h6. From 1 to 6 they decrease in size. The open p is for paragraphs within the page.</p>
+    <p><i> inside a paragraph you add the less than sign and the lower case i to create italicized script. to go back to regular text close out the italics.</i></p>
+    <p><b> bold is a b instead of an i </b></p>
+    <p><sup> and for superscript you replace i or b with the letters sup.</sup></p>
+    <p> to add an unrendered comment INSIDE your code to talk to other coders you use the less than sign, exclamation point and then two dashes to open the comment. The closing after the comment is two dashes and the greater than sign. </p>
+    <!--This is how you leave comments for yourself and other programmers without changing the face of your rendered page.-->
+    <!--Now if we want to enter a link!-->
+    <h2>Add a link to your page</h2>
+    <p>Adding absolute links</p>
+        <a href="https://google.com"> Google </a>
+        <!--this is an "anchor" and then references an absolute page from anywhere in the internet-->
+    <p>Adding non absolute links</p>    
+        <a href="Page2.html">Page 2</a> <br>
+        <!--only works this was if it is on the exact same server.-->
+        <a href="Extra pages/Page3.html">Page 3</a>
+        <!--If you want things up and down without creating a new paragraph you can openbrclose-->
+    <h2>Adding images instead of links</h2>    
+        <img src="https://www.wellingtonadvertiser.com/wp-content/uploads/2023/04/Holland-LopWEB-1062x1536.jpg" /><br>
+        <img src="Extra pages/Cuteybunny.jpg"/>
+    <h2>Lists and Tables</h2>
+    <p>Lists: ordered and unordered</p>
+    <!--ordered lists (ol) will be numbered, where unordered lists (ul) will just have bullet points-->
+        <ol>
+            <li>Billy</li>
+            <li>Laura</li>
+            <li>Christopher</li>
+            <Li>Emma</Li>
+        </ol>
+        <ul>
+            <li>Birthdays</li>
+            <li>Wedding dates</li>
+            <li>Card Reminders</li>
+            <li>Obituaries</li>
+        </ul>
+    <p>Tables</p>
+    <!--Tables are a bit more complicated!You create the table element, then within that create multiple rows.-->
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            <!--tr stands for table row, then create headers within (th). Then create more rows that follow the first in order so they line  up properly-->
+            <tr>
+                <th>Apple (product)</th>
+                <th>.35 (price)</th>
+                <th>25 apples (quantity)</th>
+            </tr>
+            <tr>
+                <th> Bread</th>
+                <th>2.10</th>
+                <th>1 loaf</th>
+            </tr>
+        </table>
+    <h2>Inline vs Block</h2>
+    <!--Logical grouping and structures to make CSS and JS easier later: Block (div)takes the whole line no matter what, Inline (span) allows to be inserted where needed with room-->
+    <p><u>Block: Div</u></p>
+        <div>
+            <h3>Div 1</h3>
+             <p>Div 1 paragraph</p>
+             <div>
+                <h5><i>A div inside another div to help group smaller and smaller</i></h5>
+             </div>
+        </div>
+        <div>
+            <h3>Div 2</h3>
+        </div>
+    <p><U>Inline:span</U></p>
+        <!--grouping in the text itself-->
+        <p>Shelly and Arlyn are married, <span> they have four kids;Billy, Laura, Chris and Emma.</span><span> Each of them has at least one child of their own.</span></p>
+    <h2>Forms</h2>
+    <!--This makes the interface interactive! YES! -->
+    <p>Creating imteractive Sheets</p>
+        <form>
+            <input type="text" name="FirstName" placeholder="First Name"><br>
+            <input type="text" name="LastName" placeholder="Last Name"><br><br>
+            Ice Cream Preference <br>
+            <input type="radio" Name="ice-cream" Value="Chocolate"> Chocolate <br>
+            <input type="radio" Name="ice-cream" Value="Vanilla"> Vanilla <br>
+            <input type="radio" Name="ice-cream" Value="Strawberry"> Strawberry <br>
+            <input type="radio" Name="ice-cream" Value="Swirl"> Swirl <br>
+            <input type="submit" value="Submit">
+            <!--Within a FORM to create buttons-type: text creates a type in box, radio creates a select one option button, submit with only a value creates the actual submit button.-->
+        </form>  <!--Don't forget to close out the form to make it all work. Make sure all buttons are named with regular text so the options show to the user!-->  
+    <p>creating buttons outside of forms</p> 
+        <button>Click here!</button> <!--withing HTML, kinda useless. Java will make it functional-->
+    <h2>Creating a Website</h2>
+    
+
+
+
+
+
+</body>
+</html>
